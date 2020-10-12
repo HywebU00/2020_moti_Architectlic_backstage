@@ -1,0 +1,62 @@
+
+.index-login-card {
+    width: 100%; 
+    height:auto;
+    @include Small-size {
+        width: 90%;
+    }
+    @include Medium-size{
+        height: 20em;
+    }
+}
+.index-login-card-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/login-img.jpg);
+    display: none;
+    @include Medium-size{
+        display: block;
+    }
+}
+.index-bg {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../img/index-login-bg.png);
+    background-repeat: no-repeat;
+  }
+.login-input-item {
+    position: relative;
+    input{
+        padding-left: 3rem;
+        height: 3em;
+    }
+}
+.login-user-img,.login-password-img {
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 5%;
+}
+.login-user-img {
+    background-image: url(../img/username-icon.svg);
+}
+.login-password-img {
+    background-image: url(../img/password-icon.svg);
+}
+.login-btn{
+    width: 100%;
+    height: 3em;
+    &:hover,&:active,&:focus{
+       background-color:  #474587 !important; 
+    }
+
+}
+.login-card-title{
+font-size: 1.5rem;
+color: #474587;
+font-weight: bold;
+letter-spacing: 0.1em;
+border-bottom: #474587 0.1em solid;
+
+}
