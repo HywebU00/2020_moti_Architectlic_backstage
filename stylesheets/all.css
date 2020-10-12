@@ -11864,7 +11864,7 @@ thead span {
 .index-bg {
   background-position: center center;
   background-size: cover;
-  background-image: url(../img/index-login-bg.png);
+  background-image: url(../img/bg.png);
   background-repeat: no-repeat;
 }
 
@@ -11895,11 +11895,12 @@ thead span {
 
 .login-btn {
   width: 100%;
+  background-color: #474587 !important;
   height: 3em;
 }
 
 .login-btn:hover, .login-btn:active, .login-btn:focus {
-  background-color: #474587 !important;
+  background-color: #555e65 !important;
 }
 
 .login-card-title {

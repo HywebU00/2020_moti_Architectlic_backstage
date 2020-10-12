@@ -21,7 +21,7 @@
 .index-bg {
     background-position: center center;
     background-size: cover;
-    background-image: url(../img/index-login-bg.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
   }
 .login-input-item {
@@ -46,15 +46,16 @@
 }
 .login-btn{
     width: 100%;
+    background-color: #474587 !important;
     height: 3em;
     &:hover,&:active,&:focus{
-       background-color:  #474587 !important; 
+       background-color:  #555e65 !important; 
     }
 
 }
 .login-card-title{
 font-size: 1.5rem;
-color: $primary;
+color: $primary; // #474587;
 font-weight: bold;
 letter-spacing: 0.1em;
 border-bottom: $primary 0.1em solid;
