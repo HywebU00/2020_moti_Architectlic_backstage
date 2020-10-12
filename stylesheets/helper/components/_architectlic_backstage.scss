@@ -3,7 +3,7 @@
     width: 100%; 
     height:auto;
     @include Small-size {
-        width: 90%;
+        width: 80%;
     }
     @include Medium-size{
         height: 20em;
@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-image: url(../img/login-img.jpg);
     display: none;
-    @include Medium-size{
+    @include  Large-size{
         display: block;
     }
 }

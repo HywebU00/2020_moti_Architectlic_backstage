@@ -11838,7 +11838,7 @@ thead span {
 
 @media (min-width: 36em) {
   .index-login-card {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -11855,7 +11855,7 @@ thead span {
   display: none;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 62em) {
   .index-login-card-img {
     display: block;
   }
