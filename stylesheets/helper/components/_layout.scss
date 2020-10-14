@@ -87,7 +87,14 @@ thead {
     display: block;
   }
 }
-
+.opinion-word{
+  span{
+    display: inline-block;
+    @include Extra-large{
+      display: block;
+    }
+  }
+}
 .introduction-list-block {
   display: inline-block;
 
@@ -151,7 +158,13 @@ thead {
 
 .navbar-light .navbar-nav .nav-link {
   color: $primary;
-
+  &:focus{
+    color: #565759;
+   
+    @include Large-size{
+      color: #fff7c1 !important;
+    }
+  }
   &:hover {
     color: #565759;
   }

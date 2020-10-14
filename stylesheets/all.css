@@ -10901,6 +10901,16 @@ thead span {
   }
 }
 
+.opinion-word span {
+  display: inline-block;
+}
+
+@media (min-width: 75em) {
+  .opinion-word span {
+    display: block;
+  }
+}
+
 .introduction-list-block {
   display: inline-block;
 }
@@ -10964,6 +10974,16 @@ thead span {
 
 .navbar-light .navbar-nav .nav-link {
   color: #744d39;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #565759;
+}
+
+@media (min-width: 62em) {
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: #fff7c1 !important;
+  }
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
